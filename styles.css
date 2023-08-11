@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+.weather-app {
+    background-image: linear-gradient(to bottom right, lightcyan, aquamarine);
+    padding-bottom: 50px;
+}
+
+.weather {
+    background-image: url(./images/cloudy.jpg);
+    background-size: cover;
+    max-width: 500px;
+    margin: auto;
+    visibility: hidden;
+}
+
+#search-icon {
+    height: 15px;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    color: grey;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+caption {
+    font-weight: bold;
+}
+
+#search-button {
+    margin-top: 5px;
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#search-query {
+    border: none;
+    height: 20px;
+    margin: 0px 5px 10px 5px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-app">
+        <div class="search">
+            <caption id="search-caption"><strong>Search for a City</strong></caption>
+            <input type="text" id="search-query">
+            <button id="search-button"><img src="./images/search_icon.png" id="search-icon"></button>
+        </div>
+        <input type="radio" name="temp_scale" value="celcius" checked>
+        <label>Celcius</label>
+        <input type="radio" name="temp_scale" value="celcius">
+        <label>Fahrenheit</label>
+        <div class="weather">
+            <h2 id="city-name">New York</h2>
+            <h1 id="temperature">25°C</h1>
+            <h3 id="description">Cloudy</h3>
+        </div>
+    </div>
+</body>
+
+<script src="./script.js" defer></script>
+</html>
